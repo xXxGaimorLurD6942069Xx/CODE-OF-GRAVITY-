@@ -1,0 +1,28 @@
+'''
+made by justin kohlberg
+11/4/2021
+
+
+
+
+this program will be diesinged to show physics 
+'''
+import math
+
+gravety=input("type in the gravey in pixes per second^2:  ")
+gravety=int(gravety)
+
+fps=input("type in fps you want here:  ")
+fps=int(fps)
+
+tnof=input("type the number of frames you want:  ")
+tnof=int(tnof)
+
+time=tnof/fps
+print(time)
+
+distance = .5 *gravety *time**2
+print(distance)
+
+
+print("It will drop", distance, "pixels in", time, "seconds") # Output time to user
